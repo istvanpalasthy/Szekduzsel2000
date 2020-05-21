@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\istva\\source\\repos\\Szkeduel2000\\Szkeduel2000\\Szkeduel2000.csproj": {}
+    "C:\\Users\\istva\\Szekduzsel2000\\Szkeduel2000\\Szkeduel2000.csproj": {}
   },
   "projects": {
-    "C:\\Users\\istva\\source\\repos\\Szkeduel2000\\Szkeduel2000\\Szkeduel2000.csproj": {
+    "C:\\Users\\istva\\Szekduzsel2000\\Szkeduel2000\\Szkeduel2000.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\istva\\source\\repos\\Szkeduel2000\\Szkeduel2000\\Szkeduel2000.csproj",
+        "projectUniqueName": "C:\\Users\\istva\\Szekduzsel2000\\Szkeduel2000\\Szkeduel2000.csproj",
         "projectName": "Szkeduel2000",
-        "projectPath": "C:\\Users\\istva\\source\\repos\\Szkeduel2000\\Szkeduel2000\\Szkeduel2000.csproj",
+        "projectPath": "C:\\Users\\istva\\Szekduzsel2000\\Szkeduel2000\\Szkeduel2000.csproj",
         "packagesPath": "C:\\Users\\istva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\istva\\source\\repos\\Szkeduel2000\\Szkeduel2000\\obj\\",
+        "outputPath": "C:\\Users\\istva\\Szekduzsel2000\\Szkeduel2000\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +40,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
