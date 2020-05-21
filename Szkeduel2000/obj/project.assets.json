@@ -5995,23 +5995,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\istva\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Gergő\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\istva\\Szekduzsel2000\\Szkeduel2000\\Szkeduel2000.csproj",
+      "projectUniqueName": "C:\\Users\\Gergő\\Desktop\\scekduzsel\\Szekduzsel2000\\Szkeduel2000\\Szkeduel2000.csproj",
       "projectName": "Szkeduel2000",
-      "projectPath": "C:\\Users\\istva\\Szekduzsel2000\\Szkeduel2000\\Szkeduel2000.csproj",
-      "packagesPath": "C:\\Users\\istva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\istva\\Szekduzsel2000\\Szkeduel2000\\obj\\",
+      "projectPath": "C:\\Users\\Gergő\\Desktop\\scekduzsel\\Szekduzsel2000\\Szkeduel2000\\Szkeduel2000.csproj",
+      "packagesPath": "C:\\Users\\Gergő\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gergő\\Desktop\\scekduzsel\\Szekduzsel2000\\Szkeduel2000\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\istva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Gergő\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6058,7 +6054,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
