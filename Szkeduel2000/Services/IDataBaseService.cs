@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Szkeduel2000.Domain;
 
 namespace Szkeduel2000.Services
 {
@@ -14,4 +15,6 @@ namespace Szkeduel2000.Services
         List<Schedule> GetSchedules(string email);
 
         string GetScheduleName(string email);
+    }
+}
 

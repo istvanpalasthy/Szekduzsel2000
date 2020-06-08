@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-
+using Szkeduel2000.Services;
 namespace Szkeduel2000.Controllers
 {
     [ApiController]
@@ -20,6 +20,8 @@ namespace Szkeduel2000.Controllers
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
+            var lofasz = new DataBaseService();
+            lofasz.GetAllUser();
             _logger = logger;
         }
 
@@ -34,6 +36,8 @@ namespace Szkeduel2000.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
+            
         }
+
     }
 }

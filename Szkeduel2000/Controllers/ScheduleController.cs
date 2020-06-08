@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Szkeduel2000.Controllers
 {
-    [Route("api/[controller]")]
+    /*[Route("api/[controller]")]
     [ApiController]
     public class ScheduleController : ControllerBase
     {
@@ -42,5 +42,5 @@ namespace Szkeduel2000.Controllers
         public void Delete(int id)
         {
         }
-    }
+    }*/
 }
